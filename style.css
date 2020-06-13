@@ -1,5 +1,6 @@
 
 header {
+  font-size: 28px;
   color: white;
   background-color: black;
   text-align: center;
@@ -8,15 +9,15 @@ header {
 }
 
 h1 {
-
+  font-size: 24px;
  }
 
 h2 {
-
+  font-size: 24px;
   }
 
 a {
- 
+  color: red;
 }
 
 .container {
@@ -30,18 +31,25 @@ a {
   width: 320px;
   padding: 10px;
   margin: 0;
+  float: center;
 
 }
 
 #main-bio {
-  width: auto;
+  float: center;
+  width: 30%;
+  padding: 10px;
 }
 
 #contact-info {
+  width: 30%;
   float: right;
+  padding: 10px;
+  display: table;
 }
 
 #bio-image {
+  width auto;
   float: left;
-
+  padding: 10px;
 }
