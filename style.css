@@ -1,11 +1,15 @@
 
 header {
-
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h1 {
 
-}
+ }
 
 h2 {
 
@@ -16,23 +20,28 @@ a {
 }
 
 .container {
+  background-color: burlywood;
 
 }
 
 #main-bio,
 #contact-info,
 #bio-image {
+  width: 320px;
+  padding: 10px;
+  margin: 0;
 
 }
 
 #main-bio {
-
+  width: auto;
 }
 
 #contact-info {
-
+  float: right;
 }
 
 #bio-image {
+  float: left;
 
 }
